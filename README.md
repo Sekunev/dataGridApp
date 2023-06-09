@@ -14,54 +14,48 @@
 - Search bar ile local storage'de depolanan ve Tablo içeriğinde kullanılan field'ler filtrelenerek istetilen harf - kelimeye göre kullanıcıya gösterim sağlanmıştır.
 - https://js.devexpress.com/Overview/DataGrid/ Kütüphanesinden Datagrid kullanılmış, verilerin kullanıcıya anlaşılır, filtrelenebilir ve sıralanabilir bir halde sunulması hedeflenmiştir.
 - Datagrid altında kullanıcıyı yormamak için belirli satır sayısı ve birden fazla sayfa arasında gezinme için filtreleme yapılmıştır.
+- Projenin tamamındaki kodlar anlaşılabilir olabilmesi için uygun isimlerde dosyalanarak component haline getirilmiştir.
+- Yeni veri nesneleri için model yapısı kullanılmış, Karmaşık kod bloklarınız için yorumlar eklenmiştir.
 
 ### Visualization of the Website
 
-![image](https://github.com/Sekunev/movie-app/blob/main/Animation.gif)
+![image](https://github.com/Sekunev/dataGridApp/blob/main/src/assest/Projectimage.png)
 
 ## Project Skeleton
 
 ```
-Movie App (folder)
+Data Grid App (folder)
 |
 |----readme.md
-SOLUTION
+|
 ├── public
 │     └── index.html
 ├── src
 │    ├── assest
-│    │     ├── avatar.png
-│    │     └── ToastMessage.jsx
-│    ├── auth
-│    │     └── firebase.js
+│    │     └── Icon ve Logo'lar.
 │    ├── components
-│    │     ├── footer
-│    │     │     ├── footer.jsx
-│    │     │     └── footer.css
-│    │     ├── search.jsx
-│    │     ├── MovieCard.js
-│    │     ├── VideoSection.js
-│    │     └── Navbar.js
-│    ├── context
-│    │     └── AuthContext.jsx
+│    │     ├── charts
+│    │     │     ├── DataDridObje.jsx
+│    │     │     └── DataDridObje.style.jsx
+│    │     ├── modals
+│    │     │     ├── YeniHesapEkle.jsx
+│    │     │     └── YeniHesapEkle.style.jsx
+│    │     ├── nav
+│    │     │     ├── Navbar.jsx
+│    │     │     └── Navbar.style.jsx
 │    ├── pages
-│    │     ├── Login.js
-│    │     ├── Register.js
-│    │     ├── Main.js
-│    │     └── MovieDetail.js
+│    │     ├── RastMobil.jsx
+│    │     └── RastMobil.style.jsx
 │    ├── router
-│    │     ├── PrivateRouter.js
-│    │     └── Router.js
+│    │     └── AppRouter.js
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
 │    └── index.css
 ├── package.json
-├── Animation.gif
-├── .env
 └── yarn.lock
 ```
 
 ### Used in this project
 
-👉 I mastered ReactJS, firebase, Material UI, react-toastify, features in this project. You can see the visual representation of the website above.
+👉 ReactJS, bootstrap, devextreme, styled-components.
