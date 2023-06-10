@@ -4,7 +4,7 @@
 
 ## Açıklamalar
 
-- Bu Projede ile Sosyal medya linki, adı ve açıklamalarını barındıran Datagrid uygulaması yapmak hedeflenmiştir.
+- Bu Proje ile Sosyal medya linki, adı ve açıklamalarını barındıran Datagrid uygulaması yapmak hedeflenmiştir.
 
 ## Projenin Oluşturulmasında izlenilen Adımlar
 
