@@ -13,6 +13,11 @@ export const Button = styled.button`
   width: 29.5%;
   height: 30px;
   margin-bottom: 0.5rem;
+  /* Medya sorguları */
+  @media screen and (max-width: 480px) {
+    /* Ekran genişliği 768 pikselden küçükse bu stil uygulanır */
+    font-size: 11px;
+  }
 `;
 
 export const InputGroup = styled.div`

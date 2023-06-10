@@ -21,7 +21,14 @@ export const SosialIcon = styled.a`
 `;
 
 export const NavRight = styled.div`
-  /* justify-content: space-between; */
+  display: flex;
+
+  /* Medya sorguları */
+  @media screen and (max-width: 768px) {
+    /* Ekran genişliği 768 pikselden küçükse bu stil uygulanır */
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Icon = styled.img`
@@ -38,6 +45,12 @@ export const Menu = styled.ul`
   justify-content: center;
   list-style: none;
   gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    /* Ekran genişliği 768 pikselden küçükse bu stil uygulanır */
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Logo = styled.img``;
@@ -48,4 +61,8 @@ export const MenuLink = styled(Link)`
   color: #272626;
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
+  @media screen and (max-width: 400px) {
+    /* Ekran genişliği 400 pikselden küçükse bu stil uygulanır */
+    font-size: 0.6rem;
+  }
 `;

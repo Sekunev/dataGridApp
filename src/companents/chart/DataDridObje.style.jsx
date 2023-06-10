@@ -4,6 +4,11 @@ export const Icon = styled.img`
   padding: 1px;
   width: 1.5rem;
   height: 1.5rem;
+
+  @media screen and (max-width: 500px) {
+    width: 1rem;
+    height: 1rem;
+  }
 `;
 
 export const InputGroup = styled.div`
@@ -25,4 +30,8 @@ export const Input = styled.input`
   width: 20%;
   padding: 0.3rem;
   width: 25%;
+
+  @media screen and (max-width: 480px) {
+    font-size: 11px;
+  }
 `;
